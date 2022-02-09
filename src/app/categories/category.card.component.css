@@ -1,0 +1,13 @@
+.card_body{
+    background-color: azure;
+    color: whitesmoke;
+}
+.card{
+    border-style: none;
+    display: inline;
+    padding: 10px;
+    text-align: center;
+}
+.container-fluid d-flex{
+    display: inline;
+}

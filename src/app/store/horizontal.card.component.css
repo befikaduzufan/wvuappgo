@@ -1,0 +1,22 @@
+.card{
+    width: 15rem;
+    border-style: none;
+ margin-left: 10px;
+ }
+.card-link{
+    text-decoration: none;
+    color:grey;
+}
+.card-link:hover{
+    background-color: #4b3c35;
+    font-weight: 300;
+    border-radius: 0%;
+}
+img{
+    width: 230px;
+    display: inline-block;
+}
+.card-body {
+margin-left: 10px;
+
+}
