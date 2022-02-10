@@ -18,5 +18,6 @@ export class AppComponent {
       console.log(product);
       this.products.push(product);
     }
+    console.log(this.products);
   }
 }

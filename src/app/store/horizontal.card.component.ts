@@ -7,13 +7,13 @@ import { Component, Input } from "@angular/core";
 })
 export class HorizontalCardComponent {
     @Input()img: string;
-    @Input()price:number;
+    @Input()price:string;
     @Input()description:string;
 
 
 constructor() {
     this.img="";
-    this.price= 0.00;
+    this.price= "0.00";
     this.description="Missing describtion";
 }
 }
