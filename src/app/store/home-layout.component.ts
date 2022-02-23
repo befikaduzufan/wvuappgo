@@ -9,6 +9,7 @@ import { ProductItemModel } from "./product-item.model";
     
 })
 export class HomeLayoutComponenet{
+  
     products: ProductItemModel [] = [];
 
 

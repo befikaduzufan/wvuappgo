@@ -11,6 +11,7 @@ import { HorizontalCardComponent } from './store/horizontal.card.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CourseProgramComponenet } from './store/courseprogram.component';
 import { HomeLayoutComponenet } from './store/home-layout.component';
+import { AllClassificationComponent } from './store/allclassification.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeLayoutComponenet } from './store/home-layout.component';
     CategoryHeaderComponent,
     HorizontalCardComponent,
     CourseProgramComponenet,
-    HomeLayoutComponenet
+    HomeLayoutComponenet,
+    AllClassificationComponent
   
     
     
