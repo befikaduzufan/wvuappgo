@@ -13,6 +13,8 @@ import { CourseProgramComponenet } from './store/courseprogram.component';
 import { HomeLayoutComponenet } from './store/home-layout.component';
 import { AllClassificationComponent } from './store/allclassification.component';
 import { ClassificationLayout } from './store/classificationlayout.component';
+import { Adventer } from './store/alladventer.component';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ClassificationLayout } from './store/classificationlayout.component';
     CourseProgramComponenet,
     HomeLayoutComponenet,
     AllClassificationComponent,
-    ClassificationLayout
+    ClassificationLayout,
+    Adventer
+    
   
     
     

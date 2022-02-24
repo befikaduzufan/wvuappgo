@@ -6,25 +6,25 @@ export const mockclassification_item = [
         description: "Have you always wanted to learn to swim but never had the opportunity? Did you have a negative or frightening experience in the water when you were younger that’s preventing you from wanting to try again? You’re not alone! About one third of adults in the United States can’t safely swim the length of a pool. We’re trying to change that. Come join us to develop the swimming skills you need to feel comfortable and safe around water. Ages 13 and up."
     },
     {
-        img: "./assets/layout2.jpeg",
+        img: "./assets/layout2.png",
         price: "0",
         title:"American Red Cross CPRO - Campus Rec Staff Only",
         description: ""
     },
     {
-        img: "./assets/layout3.jpeg",
+        img: "./assets/layout3.png",
         price: "0",
         title: "Arts and Crafts Time",
         description: ""
     },
     {
-        img: "./assets/layout4.jpeg",
+        img: "./assets/layout4.png",
         price: "20",
         title:"Backpacking and Camping Cooking Workshop",
         description: ""
     },
     {
-        img: "./assets/layout5.jpeg",
+        img: "./assets/layout5.png",
         price: "10",
         title: "Backpacking Equipment Review Workshop",
         description: ""
