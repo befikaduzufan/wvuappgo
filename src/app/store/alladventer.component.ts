@@ -7,7 +7,7 @@ import { ProductItemModel } from "./product-item.model";
 @Component({
     selector: 'alladventer',
     templateUrl: 'alladventer.component.html',
-    styleUrls: ['alladventer.component.css']
+    
     
 })
 export class Adventer{

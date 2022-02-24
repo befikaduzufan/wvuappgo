@@ -16,6 +16,7 @@ import { ClassificationLayout } from './store/classificationlayout.component';
 import { Adventer } from './store/alladventer.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import { Adventer } from './store/alladventer.component';
     HomeLayoutComponenet,
     AllClassificationComponent,
     ClassificationLayout,
-    Adventer
+    Adventer,
+    
     
   
     

@@ -15,18 +15,19 @@ export const mockadventer_item= [
         img: "./assets/index3.jpeg",
         price: "75",
         title: "Backpacking Trip",
+        describtion:""
     },
     {
         img: "./assets/index4.png",
         price: "10",
         title: "Bike Maintenance Workshop",
-        describtion:""
+        describtion:"missing"
     },
     {
         img: "./assets/index5.png",
         price: "10",
         title: "Bikepacking Workshop",
-        describtion:""
+        describtion:"misssing"
     },
 
 ];
