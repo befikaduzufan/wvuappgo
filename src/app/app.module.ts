@@ -14,6 +14,7 @@ import { HomeLayoutComponenet } from './store/home-layout.component';
 import { AllClassificationComponent } from './store/allclassification.component';
 import { ClassificationLayout } from './store/classificationlayout.component';
 import { Adventer } from './store/alladventer.component';
+import {HttpClientModule} from '@angular/common/http';
 
 
 
@@ -39,7 +40,8 @@ import { Adventer } from './store/alladventer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
