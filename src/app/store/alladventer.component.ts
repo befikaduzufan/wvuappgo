@@ -10,7 +10,7 @@ import { ProductItemModel } from "./product-item.model";
     
     
 })
-export class Adventer{
+export class alladventer{
     @Input()img: string;
     @Input()price:string;
     @Input()title:string;

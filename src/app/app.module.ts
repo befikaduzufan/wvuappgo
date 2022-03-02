@@ -13,8 +13,11 @@ import { CourseProgramComponenet } from './store/courseprogram.component';
 import { HomeLayoutComponenet } from './store/home-layout.component';
 import { AllClassificationComponent } from './store/allclassification.component';
 import { ClassificationLayout } from './store/classificationlayout.component';
-import { Adventer } from './store/alladventer.component';
+
 import {HttpClientModule} from '@angular/common/http';
+import { alladventer } from './store/alladventer.component';
+import { Adventer } from './store/adventer.component';
+
 
 
 
@@ -31,7 +34,8 @@ import {HttpClientModule} from '@angular/common/http';
     HomeLayoutComponenet,
     AllClassificationComponent,
     ClassificationLayout,
-    Adventer,
+    alladventer,
+    Adventer
     
     
   
