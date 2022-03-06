@@ -17,6 +17,7 @@ import { ClassificationLayout } from './store/classificationlayout.component';
 import {HttpClientModule} from '@angular/common/http';
 import { alladventer } from './store/alladventer.component';
 import { Adventer } from './store/adventer.component';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 
 
@@ -35,7 +36,9 @@ import { Adventer } from './store/adventer.component';
     AllClassificationComponent,
     ClassificationLayout,
     alladventer,
-    Adventer
+    Adventer,
+    UserInfoComponent
+
     
     
   
