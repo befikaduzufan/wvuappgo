@@ -22,6 +22,7 @@ import { UserInfoComponent } from './user-info/user-info.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,8 @@ import { UserInfoComponent } from './user-info/user-info.component';
     ClassificationLayout,
     alladventer,
     Adventer,
-    UserInfoComponent
+    UserInfoComponent,
+   
 
     
     
