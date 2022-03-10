@@ -26,7 +26,7 @@ export class HomeLayoutComponenet implements OnInit {
     this.productService.getproducts().subscribe((data: ProductItemModel[]) => {
       console.log("Fetching products");
       for (var product of data) {
-        console.log(product.description);
+        
         this.products.push(product);
       }
 
