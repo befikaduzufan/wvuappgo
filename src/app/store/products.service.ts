@@ -1,21 +1,21 @@
-import { HttpClient } from "@angular/common/http";
+
 import { Injectable } from "@angular/core";
 
 import { ProductItemModel } from "./product-item.model";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 @Injectable(
     {providedIn:'root'}
 )
 export class productsService{
-    private baseurl:string="https://wvuappgo-default-rtdb.firebaseio.com/";
-    private productsEndpoint="products.json";
-    constructor(private http:HttpClient){
+    
+    constructor(private db:AngularFireDatabase){
 
     }
-    getproducts(){
-        return this.http.get<ProductItemModel[]>(this.baseurl + this.productsEndpoint)
+    public getproducts(){
+     return this.db.list<ProductItemModel>("products").valueChanges();   
     }
-    getproduct(index:number){
-        return this.http.get<ProductItemModel>(this.baseurl + 'products' + '/' + index + '.json');  
+    public getproduct(index:number){
+       return this.db.list("products", ref => ref.orderByChild("price").startAt(10)).valueChanges(); 
     }
 
 }
