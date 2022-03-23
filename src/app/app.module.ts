@@ -18,6 +18,11 @@ import {HttpClientModule} from '@angular/common/http';
 import { alladventer } from './store/alladventer.component';
 import { Adventer } from './store/adventer.component';
 import { UserInfoComponent } from './user-info/user-info.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import {AngularFireModule} from '@angular/fire/compat';
+import {AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 
 
@@ -50,7 +55,10 @@ import { UserInfoComponent } from './user-info/user-info.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

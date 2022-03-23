@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/wvuappgo",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
