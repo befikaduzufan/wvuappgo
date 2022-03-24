@@ -7,7 +7,12 @@
     display: inline;
     padding: 10px;
     text-align: center;
+    
 }
 .container-fluid d-flex{
     display: inline;
+}
+.img{
+    height:100px;
+    width: 10px;
 }
