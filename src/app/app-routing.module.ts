@@ -7,8 +7,11 @@ import { AllClassificationComponent } from './store/allclassification.component'
 import { ClassificationLayout } from './store/classificationlayout.component';
 import { alladventer } from './store/alladventer.component';
 import { Adventer } from './store/adventer.component';
+import { AddProductComponent } from './store/add-product/add-product.component';
 const routes:Routes =[
-  {path: '',component: HomeLayoutComponenet},
+  {path: '',component: HomeLayoutComponenet},  
+  {path: 'admin', component: AddProductComponent},
+
   {path: 'course-program',component: CourseProgramComponenet},
   {path: 'home',component: HomeLayoutComponenet},
   {path: 'All Classifications',component: ClassificationLayout},
