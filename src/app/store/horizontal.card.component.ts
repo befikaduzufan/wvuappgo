@@ -9,11 +9,12 @@ export class HorizontalCardComponent {
     @Input()img: string;
     @Input()price:string;
     @Input()description:string;
+    
 
 
 constructor() {
     this.img="";
     this.price= "0.00";
-    this.description="Missing describtion";
+    this.description="Missing description";
 }
 }
